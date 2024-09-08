@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>responsive coffee shop website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+    <header>
+
+        <a href="#" class="logo"><img src="coffeeco.jpg" alt=""></a>
+        
+        <ul class="navbar">
+        <a href="#home">Home</a>
+        <a href="shop.html">Shop</a>
+        <a href="#delivery">Delivery</a>
+        <a href="#app">App</a>
+        <a href="#about">About</a>
+        
+        
+        </ul>
+   
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-text">
+          <span>WELCOME TO</span>
+          <h1>Coffee Co</h1>
+          <h2>FREE COFFEE IS A <br> TAP AWAY</h2>
+          
+            <button onclick="redirectToForm()" class="back">Join now</button>
+        </div>
+        
+        <div class="home-img">
+            <img src="cup.jpg" alt="">
+        </div>
+    </section>
+
+
+   
+
+
+
+
+    <section class="delivery" id="delivery">
+        <div class="heading">
+            <span>Get now</span>
+            <h1>ORDER WITH UBER EATS</h1>
+        </div>
+        <div class="container">
+            <div class="delivery-img">
+            <img src="delivery.jpg" alt="">
+           </div>
+           <div class="delivery-text">
+            <h2> Deserve a Delivery Today</h2>
+            <p>Experience the convenience of freshly brewed coffee delivered right to your doorstep, whether you’re at home, in the office, or on the go! </p>
+            <p>Our coffee delivery service brings the aroma of freshly brewed beans right to your doorstep. </p>
+            <p>Savor the rich flavors of our handcrafted coffee blends, conveniently delivered wherever you are</p>
+            <p>Wake up to a cup of perfection—our coffee, delivered hassle-free
+            </p>
+            <p>From espresso shots to creamy lattes, we’ve got your coffee cravings covered with our reliable delivery service</p>
+            <button onclick="shop()" class="back">order now</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="app" id="app">
+        <div class="heading">
+            <span>Our app</span>
+            <h1>DOWNLOAD NOW</h1>
+        </div>
+        <div class="container">
+           
+            <div class="app-text">
+              <h2>MOBILE APP</h2>
+              <p>Our coffee app brings the café experience to your fingertips, allowing you to explore a variety of brews, customize your orders, and have them delivered right to your doorstep </p>
+              <p>Discover new coffee blends, track your favorite orders, and receive personalized recommendations—all within our user-friendly coffee app</p>
+              <p>With our app, you can schedule coffee deliveries, earn loyalty rewards, and stay informed about the latest coffee trends.</p>
+              
+              <button  class="back">Get app</button>
+              </div>
+              <div class="app-img">
+                <img src="app.jpg" alt="">
+              </div>
+          </div>
+    </section>
+
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="shop.jpg" alt="">
+        </div>
+        <div class="about-text">
+            <h2>ABOUT US</h2>
+            <p>Step into our cozy coffee shop, where the aroma of freshly ground beans envelops you in warmth.</p>
+            <p>Our coffee shop is a haven for caffeine enthusiasts, offering a delightful menu of handcrafted brews.</p>
+            <p>From the rustic wooden tables to the soothing jazz in the background, our coffee shop invites you to linger and savor each sip.</p>
+            <p>Whether you’re seeking a quiet corner to work or a lively chat with friends, our coffee shop is the perfect spot.</p>
+            <button onclick="shop()" class="back">Order now</button>
+        </div>
+    </section>
+
+    <section class="contact"id ="contact">
+        <div class="social">
+            <a href="#"><i class='bx bxl-facebook-circle'></i></a>
+            <a href="#"><i class='bx bxl-twitter'></i></a>
+            <a href="#"><i class='bx bxl-instagram-alt' ></i></a>
+            <a href="#"><i class='bx bxs-coffee-bean'></i></a>
+        </div>
+       
+
+    </section>
+
+
+
+
+
+<script> 
+function redirectToForm() {
+    window.location.href = 'form.html';
+
+}
+function shop() {
+    window.location.href = 'shop.html';
+}</script>
+
+
+
+
+</body>

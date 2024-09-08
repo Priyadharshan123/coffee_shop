@@ -1,0 +1,253 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-padding-top: 2rem;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+    font-family: "Poppins", sans-serif;
+    }
+:root {
+    --main-color: #008148;
+     --second-color: #1e3932;
+}
+header {
+    position: fixed;
+    width:100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+    padding: 15px 10%;
+    transition: 0.2s;
+}
+
+.navbar{
+        display:flex;
+   }
+
+
+
+    
+   
+    
+
+
+section {
+    padding: 50px 10%;
+    }
+*::selection {
+    color: #fff;
+    background:var(--main-color);
+}
+
+
+#search-input {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#search-button {
+   
+    padding: 10px;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-left: 10px;  
+        
+    }
+    
+    #search-button:hover {
+        background-color: #070d13;
+    }   
+    #back-button {
+   
+        padding: 10px;
+        border: none;
+        background-color: #007BFF;
+        color: white;
+        cursor: pointer;
+        border-radius: 4px;
+        margin-left: 10px;  
+            
+        }
+        
+        #back-button:hover {
+            background-color: #070d13;
+        }   
+
+
+
+
+   
+
+
+
+
+
+
+
+.shop-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top:5rem;
+  
+}
+.shop-container .box{
+    flex:1 1 10rem;
+    background:  #ebdbc8;
+    padding: 20px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top:3rem;
+    border-radius:0.5rem;
+    width:200px;
+    box-sizing:border-box;
+    }
+    .shop-container .box .box-img{
+      width:150px;
+      height:150px;
+        margin-top:-100px;
+    }
+
+        .shop-container .box .box-img img{
+        width:100%;
+        height:100%;
+        object-fit:contain ;
+        object-position:center;
+        }
+        .stars{
+            margin: 1rem 0 0.1rem;
+           }
+           
+           .shop-conatiner .box .stars .bx{
+            color: #141413;
+           }
+           .shop-conatiner .box  h2{
+            color: rgb(14, 13, 13);
+            font-size:1.4rem ;
+            font-weight: 500;
+            margin: 0.2rem 0 0.5rem;
+           }
+           .shop-container .box span{
+            color:rgb(3, 3, 3);
+            font-size: 1.4rem;
+            font-weight:500;
+            margin:0.2rem 0 0.5rem;
+           }
+           .btn {
+            padding: 7px 16px;
+            border: 2px solid var(--second-color);
+            border-radius: 40px;
+            color: var(second-color);
+            font-weight: 500;
+            
+        }
+        
+        .btn:hover {
+            color: #fff;
+            background: var(--second-color);
+            }
+            .back {
+                padding: 7px 16px;
+                border: 2px solid var(--second-color);
+                border-radius: 40px;
+                color: var(second-color);
+                font-weight: 500;
+                
+            }
+            
+            .back:hover {
+                color: #fff;
+                background: var(--second-color);
+                }
+
+           .box .btn{
+            border: 2px solid rgb(16, 15, 15);
+            color:#0e0d0d;
+           }
+           .box .btn:hover{
+
+
+            background:var(--second-color);
+            color:white;
+           }
+         
+           .like-icon {
+            margin-top: 10px;
+            font-size: 1.5rem;
+            color:white;
+            border-color:black;
+          cursor: pointer;
+          padding: 7px 16px;
+ 
+        }          
+        
+        .like-icon.liked {
+            color: red;
+        }
+        
+        .navbar i{
+            
+            color:rgb(12, 12, 12);
+          cursor: pointer;
+          padding-right: 25px;
+          padding-top: 7px;
+         font-size:22px;
+        }        
+      
+
+        
+
+.popup {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background: rgba(0, 0, 0, 0.5);
+  
+}
+
+
+.popup-content {
+    background-color:#fff;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 100%;
+    max-width: 300px;
+    
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+   padding-left: 10px;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
